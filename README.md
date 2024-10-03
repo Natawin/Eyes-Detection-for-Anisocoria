@@ -24,14 +24,29 @@ Anisocoria is characterized by a difference in pupil size between the two eyes. 
 - **OpenCV** library
 - **Tkinter** library (usually pre-installed with Python)
 
-## Installation
+## How to Run
+Follow these steps to run the Anisocoria Risk Assessment Tool:
 
-To install the required packages, use the following commands:
+### Prerequisites
+1. **Python 3.x** must be installed on your machine.
+2. Install the required libraries:
+   - Install OpenCV using the following command:
+     ```bash
+     pip install opencv-python
+     ```
+   - Install NumPy using the following command:
+     ```bash
+     pip install numpy
+     ```
+   - Tkinter is usually included with Python. If not, install it based on your operating system.
 
-```bash
-pip install opencv-python
-pip install numpy
-```
+### Steps to Run
+1. **Clone the repository** or **download the script** to your local machine.
+
+2. **Run the Python script** using the terminal or command prompt:
+   ```bash
+   python <script_name>.py
+   ```
 
 ## Usage Instructions
 ### 1.Ensure that the input images are consistent:
