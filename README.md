@@ -33,7 +33,7 @@ pip install opencv-python
 pip install numpy
 ```
 
-##Usage Instructions
+## Usage Instructions
 1.Ensure that the input images are consistent:
 
 +Both eye images should have the same aspect ratio.
@@ -52,19 +52,19 @@ python <script_name>.py
 +The results will be shown in the output box below, including whether the difference is significant enough to suggest the risk of Anisocoria.
 +If you want to reset the output, click the Reset button.
 
-##GUI Overview
+## GUI Overview
 +Left Eye Image: Browse and select the image of the left eye.
 +Right Eye Image: Browse and select the image of the right eye.
 +Compare Button: Click to compare the eye images.
 +Output Section: Displays the percentage of white and black pixels for each eye and shows whether there is a risk of Anisocoria.
 +Reset Button: Clears the output section for a new comparison.
 
-##Code Structure
-#1. Eye Detection:
+## Code Structure
+# 1. Eye Detection:
 The tool uses OpenCV's Haar Cascade Classifier to detect eyes in the input images. If no eyes are detected, an error message is displayed.
-#2. Pixel Inversion and Calculation:
+# 2. Pixel Inversion and Calculation:
 The tool converts the image to grayscale, inverts it, and calculates the percentage of white and black pixels. These values are then compared to detect significant differences.
-#3. Comparison Logic:
+# 3. Comparison Logic:
 If the difference in white or black pixel percentages between the two eyes exceeds 20%, the tool flags the user as being at risk of Anisocoria. Otherwise, it indicates that the pupils are within a normal range.
 
 Example Output
@@ -84,6 +84,6 @@ Difference in White Percentage: 22.22%
 You are at risk of Anisocoria.
 ```
 
-##Limitations
+## Limitations
 The tool assumes consistent image quality and zoom levels. Variations in image resolution, lighting, and zoom can affect the accuracy of the results.
 The tool assesses risk based on pixel differences but does not replace a medical diagnosis. If you are concerned about the condition of your eyes, consult a medical professional.
