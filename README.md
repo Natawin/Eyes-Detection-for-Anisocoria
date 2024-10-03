@@ -37,27 +37,27 @@ pip install numpy
 ### 1.Ensure that the input images are consistent:
 
 +Both eye images should have the same aspect ratio.
-+The zoom level should be the same for both images (e.g., if the left eye is zoomed at x1, the right eye should also be zoomed at x1).
-+The distance between the camera and the eyes should be consistent for both images.
++ The zoom level should be the same for both images (e.g., if the left eye is zoomed at x1, the right eye should also be zoomed at x1).
++ The distance between the camera and the eyes should be consistent for both images.
 
 ### 2.Running the Tool:
-+Simply execute the Python script using your Python interpreter:
++ Simply execute the Python script using your Python interpreter:
 ```bash
 python <script_name>.py
 ```
 
 ### 3.Using the GUI:
-+Browse and select the images for the left and right eye.
-+Click the Compare button to compare the pixel data of the two eye images.
-+The results will be shown in the output box below, including whether the difference is significant enough to suggest the risk of Anisocoria.
-+If you want to reset the output, click the Reset button.
++ Browse and select the images for the left and right eye.
++ Click the Compare button to compare the pixel data of the two eye images.
++ The results will be shown in the output box below, including whether the difference is significant enough to suggest the risk of Anisocoria.
++ If you want to reset the output, click the Reset button.
 
 ## GUI Overview
-+Left Eye Image: Browse and select the image of the left eye.
-+Right Eye Image: Browse and select the image of the right eye.
-+Compare Button: Click to compare the eye images.
-+Output Section: Displays the percentage of white and black pixels for each eye and shows whether there is a risk of Anisocoria.
-+Reset Button: Clears the output section for a new comparison.
++ Left Eye Image: Browse and select the image of the left eye.
++ Right Eye Image: Browse and select the image of the right eye.
++ Compare Button: Click to compare the eye images.
++ Output Section: Displays the percentage of white and black pixels for each eye and shows whether there is a risk of Anisocoria.
++ Reset Button: Clears the output section for a new comparison.
 
 ## Code Structure
 ### 1. Eye Detection:
