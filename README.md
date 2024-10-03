@@ -67,7 +67,7 @@ The tool converts the image to grayscale, inverts it, and calculates the percent
 ### 3. Comparison Logic:
 If the difference in white or black pixel percentages between the two eyes exceeds 20%, the tool flags the user as being at risk of Anisocoria. Otherwise, it indicates that the pupils are within a normal range.
 
-Example Output
+## Example Output
 ```plaintext
 White Percentage in Inverted Right Eye: 62.34%
 White Percentage in Inverted Left Eye: 59.23%
