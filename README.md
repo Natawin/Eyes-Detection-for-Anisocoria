@@ -36,7 +36,7 @@ pip install numpy
 ## Usage Instructions
 ### 1.Ensure that the input images are consistent:
 
-+Both eye images should have the same aspect ratio.
++ Both eye images should have the same aspect ratio.
 + The zoom level should be the same for both images (e.g., if the left eye is zoomed at x1, the right eye should also be zoomed at x1).
 + The distance between the camera and the eyes should be consistent for both images.
 
