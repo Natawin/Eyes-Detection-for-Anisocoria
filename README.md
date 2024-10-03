@@ -31,6 +31,7 @@ To install the required packages, use the following commands:
 ```bash
 pip install opencv-python
 pip install numpy
+```
 
 ##Usage Instructions
 1.Ensure that the input images are consistent:
@@ -43,6 +44,7 @@ pip install numpy
 +Simply execute the Python script using your Python interpreter:
 ```bash
 python <script_name>.py
+```
 
 3.Using the GUI:
 +Browse and select the images for the left and right eye.
@@ -71,6 +73,7 @@ White Percentage in Inverted Right Eye: 62.34%
 White Percentage in Inverted Left Eye: 59.23%
 Difference in White Percentage: 3.11%
 Your images are normal.
+```
 
 or
 
@@ -79,7 +82,7 @@ White Percentage in Inverted Right Eye: 72.45%
 White Percentage in Inverted Left Eye: 50.23%
 Difference in White Percentage: 22.22%
 You are at risk of Anisocoria.
-
+```
 
 ##Limitations
 The tool assumes consistent image quality and zoom levels. Variations in image resolution, lighting, and zoom can affect the accuracy of the results.
